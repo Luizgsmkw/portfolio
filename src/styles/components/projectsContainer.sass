@@ -1,0 +1,48 @@
+@use '../variables'
+@use '../mixins'
+
+.projects 
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    .project
+       width: 350px
+       margin-bottom: 3rem
+
+    img
+        width: 300px
+        height: 400px
+        object-fit: contain
+
+    
+
+
+    .projects-links
+        @include mixins.center
+        width: 300px
+        justify-content: space-around
+
+        a
+            display: flex
+            align-items: center
+            text-decoration: none
+            height: 60px
+            
+        
+        #github
+            svg
+                color: #fff
+                font-size: 1.5rem
+                margin-right: 10px
+
+        #global
+            svg
+                color: #fff
+                font-size: 1.5rem
+                margin-right: 10px
+
+        p
+            margin-top: 1rem
+        
+       
