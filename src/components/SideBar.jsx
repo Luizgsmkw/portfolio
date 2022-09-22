@@ -3,6 +3,8 @@ import avatar from '../img/WhatsApp Image 2022-08-01 at 18.52.04.jpeg'
 import '../styles/components/sidebar.sass'
 import SocialNetworks from './SocialNetworks'
 import InformationContainer from './InformationContainer'
+import curriculo from '../curriculo/Luiz-Martins.pdf'
+
 const SideBar = () => {
   return (
     <aside id='sidebar'>
@@ -11,7 +13,7 @@ const SideBar = () => {
       <p className='title'>Desenvolvedor Front-end</p>
       <SocialNetworks/>
       <InformationContainer/>
-      <a href="" className="btn">Download Currículo</a>
+      <a href={curriculo} download="Luiz-Martins.pdf" type="application/pdf" className="btn">Download Currículo</a>
     </aside>
   )
 }
