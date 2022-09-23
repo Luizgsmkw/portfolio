@@ -33,6 +33,7 @@ const ProjectsContainer = () => {
         <h2>Projetos</h2>
         <div className='projects'>
             <div className='project'>
+                <h3>E-wine: e-commerce de vinho</h3>
                 <a href="https://luizgsmkw.github.io/e-wine/" target='_blank'><img src={eVinho} alt="Projeto e-vinho" /></a>
                 <h3></h3>
                 <div className='projects-links'>
@@ -48,6 +49,7 @@ const ProjectsContainer = () => {
                 {/* <p className='technology'>tecnologias: {iconProjects[7].icon} {iconProjects[5].icon} {iconProjects[9].icon} </p> */}
             </div>
             <div className='project'>
+                <h3>Sunnyside: landing page</h3>
                 <a href="https://luizgsmkw.github.io/Sunnyside/" target='_blank'><img src={sunnyside} alt="Projeto sunnyside" /></a>
                 <h3></h3>
                 <div className='projects-links'>
@@ -62,6 +64,7 @@ const ProjectsContainer = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Filmax: API de indicações de filme</h3>
                 <a href="https://filmax.vercel.app/" target='_blank'><img src={filmax} alt="Projeto filmax" /></a>
                 <h3></h3>
                 <div className='projects-links'>
@@ -76,6 +79,7 @@ const ProjectsContainer = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Cura: mirante de arte urbana</h3>
                 <a href="https://luizgsmkw.github.io/Cura-BH/" target='_blank'><img src={cura} alt="Projeto cura-arte" /></a>
                 <h3></h3>
                 <div className='projects-links'>
@@ -90,6 +94,7 @@ const ProjectsContainer = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Todo: lista de tarefas</h3>
                 <a href="https://luizgsmkw.github.io/todo-list/" target='_blank'><img src={todo} alt="Projeto todo-list" /></a>
                 <h3></h3>
                 <div className='projects-links'>
@@ -104,6 +109,7 @@ const ProjectsContainer = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Github: buscador de usuários</h3>
                 <a href="https://luizgsmkw.github.io/ProjetoGitHub/" target='_blank'><img src={github} alt="Projeto github" /></a>
                 <h3></h3>
                 <div className='projects-links'>
@@ -118,7 +124,7 @@ const ProjectsContainer = () => {
                 </div>
             </div>
             <div className='project'>
-                
+                <h4>InfoClick: e-commerce de tecnologia</h4>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/xOopgGz-YiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
                 <h3></h3>
@@ -134,6 +140,7 @@ const ProjectsContainer = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Fylo: landing page</h3>
                 <a href="https://luizgsmkw.github.io/Fylo-/" target='_blank'><img src={fylo} alt="Projeto fylo" /></a>
                 <h3></h3>
                 <div className='projects-links'>
