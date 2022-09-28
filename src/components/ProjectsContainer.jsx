@@ -65,7 +65,7 @@ const ProjectsContainer = () => {
             </div>
             <div className='project'>
                 <h3>Filmax: API de indicações de filme</h3>
-                <a href="https://filmax-chny.vercel.app/filmes" target='_blank'><img src={filmax} alt="Projeto filmax" /></a>
+                <a href="https://filmax-chny.vercel.app/" target='_blank'><img src={filmax} alt="Projeto filmax" /></a>
                 <h3></h3>
                 <div className='projects-links'>
                     <a href="https://github.com/Luizgsmkw/filmax" target='_blank'  className='social-btn' id={iconProjects[0].name}>
